@@ -292,6 +292,11 @@ a:hover {
     z-index: 1;
 }
 
+.navbar-header img {
+    height: 40px;
+}
+
+
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
