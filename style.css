@@ -654,6 +654,11 @@ a {
     color: #575757!important;
 }
 
+#citation-text{
+    font-style: italic;
+    font-size: 20px;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;/*11px*/
 }
 
 
@@ -687,7 +692,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 24px;/*20px*/
     font-family: "Open Sans";
 }
 
@@ -711,7 +716,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;/*15px*/
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
