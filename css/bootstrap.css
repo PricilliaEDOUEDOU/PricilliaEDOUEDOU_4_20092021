@@ -1658,7 +1658,7 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
 }
 
 .text-justify {
@@ -3172,7 +3172,7 @@ output {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #999
+    color: rgb(153, 153, 153)
 }
 
 .form-control[disabled],
