@@ -659,6 +659,10 @@ a {
     font-size: 20px;
 }
 
+#citation-auteur{
+    color: #786C73;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -709,8 +713,14 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+   
 }
 
+a.social{
+    display: block;
+    width: 27.86px;
+    height: 30px;
+}
 
 
 h2 {
@@ -752,8 +762,14 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto;/*margin-bottom: 24px;*/
 } 
+
+img.img-responsive.portfolio-thumb{
+    width: 270px;
+    height: 270px;
+}
+
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
