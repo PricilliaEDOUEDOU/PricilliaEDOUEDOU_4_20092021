@@ -5,17 +5,6 @@
 	<!--Autorise l'indexation de Google-->
 	<meta name="robots" content="index, follow">
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLXB052GQD"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-GLXB052GQD');
-    </script>
-
-
 
 	<!--Titre et description du site-->
 	<title>contact la chouette agence - Entreprise spécialisée en web design à Lyon</title>
@@ -58,7 +47,20 @@
 	<meta name="twitter:image" content="img/image-de-presentation.jpg" />
 	<meta name="twitter:description" content="La chouette agence, entreprise de Web design à Lyon, conseille et aide les entreprises à réaliser leur projet.">
     
-    
+     <!--Google Search Console-->
+	<meta name="google-site-verification" content="2dUAYCT0LqHesn3Cm4DVB1PSHshS6N_5FJhBQhR_l8U" />
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLXB052GQD"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GLXB052GQD');
+    </script>
+	<!--END Google Analytics-->
+
 </head>
 <body>
     
@@ -119,11 +121,11 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
 								<label>
 									Nom
-									<input type="name" class="form-control" title="Entrez votre nom" placeholder="Exple: John DOE" required />
+									<input id="name" type="text" class="form-control" title="Entrez votre nom" placeholder="Exple: John DOE" required />
 								</label>
 							</div>
 							<div class="form-group">
@@ -180,22 +182,22 @@
 					<div class="row row-no-gutters social">
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="https://twitter.com" title="twitter" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
+								<a class="social" href="https://twitter.com" title="twitter" target="_blank" rel="noopener"><span class="fa fa-twitter icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="https://facebook.com" title="facebook" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
+								<a class="social" href="https://facebook.com" title="facebook" target="_blank" rel="noopener"><span class="fa fa-facebook icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="https://www.dribble.com" title="dribble" target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
+								<a class="social" href="https://www.dribble.com" title="dribble" target="_blank" rel="noopener"><span class="fa fa-dribbble icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="https://www.instagram.com" title="instagram" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
+								<a class="social" href="https://www.instagram.com" title="instagram" target="_blank" rel="noopener"><span class="fa fa-instagram icon-md"></span></a>
 							</div>
 						</div>
 					</div>
@@ -205,8 +207,6 @@
 	</div>
 	<!-- Footer - bloc-8 END -->
 	
-	</div>
-	<!-- Principal conteneur END -->
 
     
 
